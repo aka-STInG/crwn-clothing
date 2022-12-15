@@ -3,7 +3,7 @@ import {
   onAuthStateChangedListener,
   createUserDocumentFromAuth,
 } from "../utils/firebase/firebase.utils";
-import { createAction } from "../utils/firebase/reducer/reducer.util";
+import { createAction } from "../utils/reducer/reducer.util";
 
 export const UserContext = createContext({
   currentUser: null,
